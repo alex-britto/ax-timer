@@ -14,7 +14,7 @@ ${({ theme }) => css`
   }
 
   body {
-    background-color: ${theme.colors["gray-900"]};
+    background-color: "#1f1fcb";
     color: ${theme.colors["gray-300"]};
   }
 
