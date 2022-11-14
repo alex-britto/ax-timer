@@ -10,7 +10,7 @@ function App() {
   return (
     <ThemeProvider theme={defaultTheme}>
       TEST
-      <BrowserRouter basename="https://alex-britto.github.io/ax-timer">
+      <BrowserRouter basename="/ax-timer">
         <Router />
       </BrowserRouter>
       <GlobalStyle />
