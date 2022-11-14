@@ -1,11 +1,14 @@
 {
-  "name": "02-ignite-timer",
+  "name": "ax-timer",
+  "homepage": "https://alex-britto.github.io/ax-timer",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "tsc && vite build",
+    "build": "vite build",
+    "predeploy": "yarn build",
+    "deploy": "gh-pages -d dist",
     "preview": "vite preview"
   },
   "dependencies": {
