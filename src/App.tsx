@@ -9,7 +9,7 @@ import { defaultTheme } from "./styles/themes/default";
 function App() {
   return (
     <ThemeProvider theme={defaultTheme}>
-      <BrowserRouter>
+      <BrowserRouter basename="/ax-timer">
         <Router />
       </BrowserRouter>
       <GlobalStyle />
