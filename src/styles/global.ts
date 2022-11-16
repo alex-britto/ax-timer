@@ -14,13 +14,13 @@ ${({ theme }) => css`
   }
 
   body {
-    background-color: "#1f1fcb";
+    background-color: ${theme.colors["gray-600"]};
     color: ${theme.colors["gray-300"]};
+    -webkit-font-smoothing: antialiased;
   }
 
   body,
-  border-style,
-  input-security,
+  input,
   text-area,
   button {
     font-family: "Roboto", sans-serif;

@@ -9,7 +9,6 @@ import { defaultTheme } from "./styles/themes/default";
 function App() {
   return (
     <ThemeProvider theme={defaultTheme}>
-      TEST
       <BrowserRouter basename="/ax-timer">
         <Router />
       </BrowserRouter>
