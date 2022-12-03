@@ -38,7 +38,6 @@ export function Home() {
   function handleCreateNewCycle(data: NewCicleFormDate) {
     createNewCylce(data);
     reset();
-    console.log("chamou");
   }
 
   function captureErrorMessage() {
